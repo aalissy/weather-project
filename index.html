@@ -10,16 +10,19 @@
 </head>
 
 <body>
+    <!-- Header display with a gradient navbar displaying the words weather dashboard -->
     <div class="header">
         <div class="navbar navbar-dark" style="background: linear-gradient(to right, #3862e0, #2d004d);">
             <h1 class="col-12">Weather Dashboard</h1>
         </div>
     </div>
 
+    <!-- Displays search for a city: -->
     <div class="col-3 pb-2 pt-3">
         <h3>Search for a City:</h3>
     </div>
 
+    <!-- Input for a city name including a search button -->
     <div class="row">
         <div class="col-12">
             <input type="text" id="typeCityName" placeholder="San Diego"/>
@@ -27,24 +30,29 @@
         </div>
     </div>
 
+    <!-- Hr block separating the search button from the listed items -->
     <hr>
 
+    <!-- Entered cities in the text bar get displayed into a list -->
     <div class="row mt-3">
         <div class="col-12">
             <ul id="enteredCities" class="list-group"></ul>
         </div>
     </div>
 
+    <!-- Current date weather information is displayed here with the entered city -->
     <div id="searchedWeather" class="col-9 pb-4 pt-4">
         <div class="row pb-3 mr-2 ml-2">
             <div id="cityInfo" class="col-12 rounded px-3 py-3 hidden"></div>
         </div>
 
+    <!-- Five day forecast header displaying 5-day forecast: located in the js file-->
     <div class="row pb-2 pt-1">
         <div id="fiveDayForecastHeader" class="col-12 ml-2 text-dark">
         </div>
     </div>
 
+    <!-- Displayed forecast for the five days-->
     <div id="fiveDayForecast" class="row pl-2"></div>
     </div>
 </div>
