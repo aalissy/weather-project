@@ -33,5 +33,14 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
 ## Screenshots
+<img width="1440" alt="Screen Shot 2022-07-21 at 10 36 42 PM" src="https://user-images.githubusercontent.com/32420245/180357515-66dfec91-0bfc-44c3-b502-48af3240bc3d.png">
+<img width="1440" alt="Screen Shot 2022-07-21 at 10 37 02 PM" src="https://user-images.githubusercontent.com/32420245/180357522-6ec1a6fa-9043-4af1-ab74-c630b99c1e6e.png">
+<img width="1" alt="Screen Shot 2022-07-21 at 10 37 08 PM" src="https://user-images.githubusercontent.com/32420245/180357524-6826081e-87be-4768-9e3d-e167823710a1.png">
+<img width="1440" alt="Screen Shot 2022-07-21 at 10 37 14 PM" src="https://user-images.githubusercontent.com/32420245/180357525-a51f5f27-ad7c-44d7-93e4-3a01146228e4.png">
+<img width="1439" alt="Screen Shot 2022-07-21 at 10 37 40 PM" src="https://user-images.githubusercontent.com/32420245/180357526-e20a84be-a66e-4446-bfb5-c2ad9c3a3a2a.png">
+<img width="1440" alt="Screen Shot 2022-07-21 at 10 37 48 PM" src="https://user-images.githubusercontent.com/32420245/180357528-7cf70c89-b990-4bda-a37a-b9a15b994e06.png">
+<img width="1439" alt="Screen Shot 2022-07-21 at 10 38 08 PM" src="https://user-images.githubusercontent.com/32420245/180357530-b830c0b6-2535-4494-a11e-ac193d756347.png">
+
 
 ## Link to Deployed Application
+https://aalissy.github.io/weather-project/
