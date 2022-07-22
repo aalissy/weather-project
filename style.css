@@ -1,12 +1,15 @@
+/* Aligns the h1 text and sets the color to white */
 h1 {
     text-align: center;
     color: white;
 }
 
+/* Bolds the h3 text */
 h3 {
     font-weight: bold;
 }
 
+/* aligns the text box and changes the width and height */
 #typeCityName {
     position: relative;
     width: 270px;
@@ -14,6 +17,7 @@ h3 {
     left: 15px;
 }
 
+/* makes the search button dodgerblue makes the text color a lighter blue positions the button and changes the width and height */
 #btn {
     position: absolute;
     margin-top: 60px;
@@ -24,6 +28,7 @@ h3 {
     color: #b6e1fc;
 }
 
+/* positions the hr block changes the color to darkslategrey changes the border width and also the full length  */
 hr {
     margin-top: 80px;
     margin-left: 15px;
@@ -32,6 +37,7 @@ hr {
     width: 270px;
 }
 
+/* gives a background color of darkgray to the list items aligns their text to the center positions them gets rid of any bullet points and displays them with some space in between */
 #enteredCities li {
     background-color: darkgray;
     text-align: center;
@@ -42,6 +48,7 @@ hr {
     margin: 0 0 15px 0;
 }
 
+/* gives a border to the current date info and positions it */
 #cityInfo {
     background-color: white;
     border: black solid 1px;
@@ -50,23 +57,26 @@ hr {
     bottom: 200px;
 }
 
+/* positions the text displaying 5-day forecast: */ 
 #fiveDayForecastHeader {
     position: relative;
     left: 300px;
     bottom: 200px;
-    font-style: bold;
 }
 
+/* positions the five day forecast information */
 #fiveDayForecast {
     position: relative;
     left: 300px;
     bottom: 190px;
 }
 
+/* sets everything with the class hidden to not be displayed */
 .hidden {
     display: none
 }
 
+/* positions the UVI box and changes the width */
 #displayedColor {
     position: relative;
     left: 75px;
@@ -74,6 +84,7 @@ hr {
     width: 55px;
 }
 
+/* when hovering over the list items the cursor changes into a pointer */
 li:hover {
     cursor: pointer;
 }
